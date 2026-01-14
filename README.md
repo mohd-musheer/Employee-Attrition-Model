@@ -2,6 +2,11 @@
 
 Machine Learning · FastAPI · Docker · Modern UI
 
+
+live on : https://employee-attrition-model-x0ek.onrender.com
+Docker : https://hub.docker.com/repository/docker/mohdmusheer/employee-attrition-predictor
+
+
 📌 Overview
 
 AI Employee Attrition Predictor is an end-to-end Machine Learning application that predicts whether an employee is likely to leave or stay in an organization.

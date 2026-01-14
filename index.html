@@ -332,8 +332,8 @@ function submitForm() {
     const res = document.getElementById("result");
     res.className = r.prediction === "Leave" ? "result leave" : "result stay";
     res.textContent = r.prediction === "Leave"
-      ? " Employee is likely to LEAVE"
-      : " Employee is likely to STAY";
+      ? "🚨 Employee is likely to LEAVE"
+      : "✅ Employee is likely to STAY";
   });
 }
 </script>
