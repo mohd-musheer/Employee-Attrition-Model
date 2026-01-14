@@ -18,7 +18,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-model = joblib.load("EmployeeAttritionDataset.pkl")
+model = joblib.load("EmployeeAttritionModel.pkl")
 
 @app.get("/", response_class=HTMLResponse)
 def home():
